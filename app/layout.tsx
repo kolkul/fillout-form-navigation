@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={(inter.className, melody.className)}>
+    <html lang="en" className={(melody.className, inter.className)}>
       <head>
         <title>Fillout - Page navigation</title>
         <link rel="icon" href="/favicon.ico" />
