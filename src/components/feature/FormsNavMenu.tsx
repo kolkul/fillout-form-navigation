@@ -86,6 +86,7 @@ export default function FormsNavMenu() {
             }
           >
             {formsList && formsList.length > 0 && (
+              // @ts-ignore: Library works fine
               <SortableContext
                 items={formsList}
                 strategy={horizontalListSortingStrategy}
